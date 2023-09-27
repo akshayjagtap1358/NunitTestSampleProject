@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitIntegrateWithJenkinsDummyProject", "NUnitIntegrateWithJenkinsDummyProject\NUnitIntegrateWithJenkinsDummyProject.csproj", "{5AE1A6CF-7468-45A6-ADC8-87E9749D61CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NUnitTests", "NUnitTests\NUnitTests.csproj", "{31665E80-A784-4A78-AB12-9DCFD801610D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5AE1A6CF-7468-45A6-ADC8-87E9749D61CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE1A6CF-7468-45A6-ADC8-87E9749D61CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE1A6CF-7468-45A6-ADC8-87E9749D61CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE1A6CF-7468-45A6-ADC8-87E9749D61CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31665E80-A784-4A78-AB12-9DCFD801610D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31665E80-A784-4A78-AB12-9DCFD801610D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31665E80-A784-4A78-AB12-9DCFD801610D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31665E80-A784-4A78-AB12-9DCFD801610D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5EB9EF3-BB48-49C3-86F3-BA677BC969B7}
+	EndGlobalSection
+EndGlobal
