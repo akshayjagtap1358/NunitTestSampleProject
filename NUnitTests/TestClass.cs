@@ -23,6 +23,13 @@ namespace NUnitTests
         }
 
         [Test]
+        public void TestAddFunctionFailure()
+        {
+            int result = form1.Add(10, 20);
+            Assert.AreEqual(0, result);
+        }
+
+        [Test]
         public void TestSubtractFunction()
         {
             int result = form1.Subtract(20, 20);
